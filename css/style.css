@@ -174,3 +174,21 @@ h2.title {
     font-weight: 300;
     line-height: 21px;
 }
+
+.my-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    background-color: red;
+    text-align: center;
+    color:blueviolet;
+}
