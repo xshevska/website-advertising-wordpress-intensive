@@ -19,7 +19,7 @@ html {
 .promo {
     height: 800px;
     background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
-    padding: 39px 0 62px 0 ;
+    padding: 39px 0 62px 0;
 }
 
 .logo .logo_img {
@@ -79,7 +79,8 @@ h2.title {
     font-weight: 700;
 }
 
-.promo .promo_btn, .gift .gift_btn{
+.promo .promo_btn,
+.gift .gift_btn {
     display: block;
     margin: 0px auto;
     margin-top: 73px;
@@ -89,7 +90,7 @@ h2.title {
     border: 4px solid rgba(0, 0, 0, 0.23);
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
 
-    text-shadow: -1px -1px 0px rgba(0,0,0,0.22);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     color: #ffffff;
     font-size: 21px;
     font-weight: 400;
@@ -133,7 +134,8 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     font-size: 30px;
     font-weight: 400;
@@ -142,16 +144,17 @@ h2.title {
 }
 
 .finish .finish_header {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
-.waiting .waiting_divider, .finish .finish_divider {
+.waiting .waiting_divider,
+.finish .finish_divider {
     width: 217px;
     height: 4px;
     background-color: #f9bf3b;
     margin: 0 auto;
     margin-top: 18px;
-    
+
 }
 
 .waiting .waiting_subheader {
@@ -198,7 +201,7 @@ h2.title {
     color: #299cbd;
     font-size: 29px;
     font-weight: 900;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 
 }
 
@@ -210,7 +213,7 @@ h2.title {
     font-size: 17px;
     line-height: 27px;
     font-weight: 400;
-} 
+}
 
 .optimization .optimization_text span {
     font-weight: 700;
@@ -219,8 +222,10 @@ h2.title {
 .optimization .optimization_img {
     position: absolute;
     top: -54px;
-    left: -240px;      /* shift our picture of the woman to the left by 240 pixels */
-    z-index: -1;       /* make the text go on top of the picture */
+    left: -240px;
+    /* shift our picture of the woman to the left by 240 pixels */
+    z-index: -1;
+    /* make the text go on top of the picture */
 }
 
 .finish {
